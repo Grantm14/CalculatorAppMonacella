@@ -28,4 +28,11 @@
         <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
         <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
     </style>
+    
+    <style name="OperationButtons" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">#DDA15E</item>
+        <item name = "android:layout_height">86dp</item>
+        <item name = "android:layout_width">81dp</item>
+        <item name= "android:textColor">#BC6C25</item>
+    </style>
 </resources>
