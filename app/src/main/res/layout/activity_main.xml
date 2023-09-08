@@ -14,8 +14,8 @@
         android:gravity="center"
         android:text="Reset"
         android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/textView_current"
+        app:layout_constraintTop_toTopOf="@+id/textView_current" />
 
     <Button
         android:id="@+id/button_Division"
@@ -81,7 +81,7 @@
         android:text="2"
         android:textSize="30sp"
         app:layout_constraintStart_toEndOf="@+id/button1"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView_current"
         app:strokeColor="#000000"
         app:strokeWidth="3dp" />
 
@@ -107,7 +107,7 @@
         android:text="3"
         android:textSize="30sp"
         app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView_current"
         app:strokeColor="#000000"
         app:strokeWidth="3dp" />
 
@@ -185,12 +185,12 @@
         android:text="1"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView_current"
         app:strokeColor="#000000"
         app:strokeWidth="3dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_current"
         android:layout_width="388dp"
         android:layout_height="118dp"
         android:layout_marginTop="16dp"
