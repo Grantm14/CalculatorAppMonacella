@@ -210,7 +210,7 @@
         android:layout_marginTop="16dp"
         android:background="@color/md_theme_dark_onSurface"
         android:gravity="left|center_vertical"
-        android:text="9+10"
+        android:text=""
         android:textSize="40sp"
 
         app:layout_constraintEnd_toEndOf="parent"

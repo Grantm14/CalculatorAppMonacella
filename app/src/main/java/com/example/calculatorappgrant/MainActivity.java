@@ -192,9 +192,10 @@ public class MainActivity extends AppCompatActivity {
             solution = (double)Integer.parseInt(userInput1) * Integer.parseInt(userInput2);
         }
         else if(operation.equals("÷")){
-            solution = (double)Integer.parseInt(userInput1) / Integer.parseInt(userInput2);
+            solution = (double)Integer.parseInt(userInput1) / (double)Integer.parseInt(userInput2);
         }
-        String S = userInput1 + operation + userInput2 + "="+ String.valueOf(Math.round(solution*100)/100);
+        solution = (double)Math.round(solution*100)/100;
+        String S = userInput1 + operation + userInput2 + "="+ solution;
         current.setText(S);
         appHistory+=S + "\n";
         history.setText(appHistory);
